@@ -1,0 +1,76 @@
+name: nimp
+main: com.Jongyeol.nimp.Main
+version: 1.0.0
+api-version: 1.13
+commands:
+  broadcast:
+    description: 공지를 합니다.
+    aliases: bc
+    usage: /broadcast <String>
+    permission: nimp.broadcast
+  cmdspy:
+    description: 명령어 로그를 켭니다.
+    usage: /cmdspy <boolean>
+    permission: nimp.cmdspy
+  home:
+    description: 집으로 이동합니다.
+    usage: /home <Player(permission only)>
+    permission: nimp.home
+  sethome:
+    description: 홈을 지정합니다.
+    usage: /sethome <Player(permission only)>
+    permission: nimp.sethome
+  spawn:
+    description: 스폰으로 이동합니다.
+    usage: /spawn
+    permission: nimp.spawn
+  setspawn:
+    description: 스폰을 지정합니다.
+    usage: /setspawn
+    permission: nimp.setspawn
+  cmd:
+    description: 플레이어에게 명령을 실행시키도록 합니다.
+    usage: /cmd <Player> <Command>
+    permission: nimp.cmd
+  cmdop:
+    description: 플레이어에게 OP에 권한으로 명령을 실행시키도록 합니다.
+    usage: /cmdop <Player> <Command>
+    permission: nimp.cmdop
+  chat:
+    description: 플레이어에게 채팅형식의 명령을 실행시키도록 합니다.
+    usage: /chat <Player> <Command>
+    permission: nimp.chat
+  chatop:
+    description: 플레이어에게 OP에 권한으로 채팅형식의 명령을 실행시키도록 합니다.
+    usage: /chatop <Player> <Command>
+    permission: nimp.chatop
+  cmdcon:
+    description: 콘솔에 권한으로 명령을 실행시키도록 합니다.
+    usage: /cmdcon <Command>
+    permission: nimp.cmdcon
+  talk:
+    description: 플레이어에 이름으로 채팅을 전송합니다.
+    usage: /talk <Player> <Message>
+    permission: nimp.talk
+  talkop:
+    description: 플레이어에 이름을 OP권한으로 채팅을 전송합니다.
+    usage: /talkop <Player> <Message>
+    permission: nimp.talkop
+  tpa:
+    description: 플레이어에게 텔레포트 요청을 전송합니다.
+    usage: /tpa <Player>
+    permission: nimp.tpa
+  tpaccept:
+    description: 플레이어에 텔레포트 요청을 승인합니다.
+    aliases: tpyes
+    usage: /tpaccept <Player>
+    permission: nimp.tpaccept
+  tpdeny:
+    description: 플레이어에 텔레포트 요청을 거절합니다.
+    aliases: tpno
+    usage: /tpdeny <Player>
+    permission: nimp.tpdeny
+  save:
+    description: 데이터를 저장합니다.
+    usage: /save
+    permission: nimp.save
